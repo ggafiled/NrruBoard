@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_corpus"
+            android:title="See corpus" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:title="Bookmarks" />
+        <item
+            android:id="@+id/nav_interests"
+            android:title="Interests" />
+        <item
+            android:id="@+id/nav_newstory"
+            android:title="New story" />
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_signout"
+            android:title="Sign out" />
+    </group>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryDarkLogin">#FFFFFF</color>
+    <color name="colorAccent">#933EC5</color>
+    <color name="colorTextBold">#685C5C</color>
+    <color name="colorTextGray">#D1CBCB</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTextPurpore">#933EC5</color>
+    <color name="colorDarkTurquoise">#00DBD4</color>
+    <color name="colorDrawerview">#f5f5f5</color>
+    <color name="colorTomato">#ff6347</color>
+</resources>

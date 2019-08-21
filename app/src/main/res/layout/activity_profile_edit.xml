@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.tryz.io.nrruboard.ProfileEditActivity"
+android:padding="0dp"
+android:layout_margin="0dp">
+
+<android.support.design.widget.AppBarLayout
+    android:id="@+id/baseAppbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="0dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbareditprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Edit Profile"
+        app:titleTextAppearance="@style/ToolbarDefault"
+        app:titleTextColor="@color/colorPrimaryDark">
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/circleImageView_profile"
+    android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:layout_marginTop="40dp"
+    android:padding="0dp"
+    android:src="@mipmap/profile_defualt"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/baseAppbarLayout" />
+
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/TextInputLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:paddingHorizontal="20dp"
+    android:gravity="center"
+    app:layout_constraintTop_toBottomOf="@+id/circleImageView_profile"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/txt_editprofile_displayname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Display Name"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView_profile" />
+
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:paddingHorizontal="20dp"
+    android:gravity="center"
+    app:layout_constraintTop_toBottomOf="@+id/TextInputLayout1"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/txt_editprofile_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Memo"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView_profile" />
+
+</android.support.design.widget.TextInputLayout>
+
+<ProgressBar
+    android:id="@+id/progressBarEditProfile"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginBottom="0dp"
+    android:background="@color/colorBackground"
+    android:indeterminate="true"
+    android:padding="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

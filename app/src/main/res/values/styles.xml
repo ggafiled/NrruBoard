@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppFont">
+        <item name="fontPath">font/nunitosans_regular.ttf</item>
+    </style>
+
+    <style name="ToolbarDefault" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontPath">font/nunitosans_regular.ttf</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:title">@string/txt_main_toolbar_title</item>
+    </style>
+
+    <style name="NavigationView" parent="Base.TextAppearance.AppCompat">
+        <item name="fontPath">font/quicksand_light.ttf</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="listPreferredItemHeightSmall">40dp</item>
+        <item name="android:itemBackground">@color/colorDrawerview</item>
+    </style>
+
+    <style name="Button_Borderless" parent="@style/Widget.AppCompat.Button.Borderless"></style>
+
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLogin</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myRatingBar" parent="@style/Widget.AppCompat.RatingBar.Small"></style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

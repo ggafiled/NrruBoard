@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">NRRU BOARD</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="txt_auth">Authenticator</string>
+    <string name="txt_auth_decription">Protect your account in just a few minutes by reviewing your security settings and activity.</string>
+    <string name="txt_username_hint">Username</string>
+    <string name="txt_passowrd_hint">Password</string>
+    <string name="txt_ask_have_account">Already have a account ?</string>
+    <string name="txt_signin">Sign Up</string>
+    <string name="txt_btn_disp">LOGIN</string>
+    <string name="txt_displayname">Display Name</string>
+    <string name="txt_regis_email_hint">Email Address</string>
+    <string name="txt_regis_pwd_hint">Password</string>
+    <string name="txt_regis_pwd_confirm_hint">Confirm Password</string>
+    <string name="txt_regis_btn">CREATE ACCOUNT</string>
+    <string name="txt_regis_toolbar_title">Sign Up</string>
+    <string name="txt_main_toolbar_title">Home</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="txt_editor_aredittext_hint">Just make your story with us ...</string>
+    <string name="txt_profile_name">Username</string>
+    <string name="txt_btn_profile_name_edit">Edit Profile</string>
+    <string name="title_activity_edit_story">EditStoryActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

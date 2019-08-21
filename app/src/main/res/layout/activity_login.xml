@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.tryz.io.nrruboard.LoginActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="54dp"
+        android:src="@mipmap/logo" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/txt_auth"
+        android:textSize="22sp"
+        android:textColor="@color/colorTextBold"
+        android:textAppearance="@style/AppFont"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:text="@string/txt_auth_decription"
+        android:textAppearance="@style/AppFont"
+        android:textColor="@color/colorTextGray"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/colorTextBold"
+        android:hint="@string/txt_username_hint"
+        android:textAppearance="@style/AppFont"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@mipmap/avatar"
+        android:drawablePadding="10sp"
+        android:background="@drawable/bg_username_shape"
+        android:textSize="18sp"
+        android:padding="10sp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/colorTextBold"
+        android:background="@drawable/bg_username_shape"
+        android:drawableStart="@mipmap/lock"
+        android:drawablePadding="10sp"
+        android:hint="@string/txt_passowrd_hint"
+        android:inputType="textPassword"
+        android:padding="10sp"
+        android:textAppearance="@style/AppFont"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_btn_login_shape"
+        android:text="@string/txt_btn_disp"
+        android:textAppearance="@style/AppFont"
+        android:textColor="@color/colorBackground"
+        android:textSize="18sp"
+        style="@style/Button_Borderless"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_ask_have_account"
+            android:textAppearance="@style/AppFont"
+            android:textColor="@color/colorTextGray"
+            android:textSize="18sp"
+
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/txt_signin"
+            android:textAppearance="@style/AppFont"
+            android:textColor="@color/colorTextPurpore"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+
+        <ProgressBar
+            android:id="@+id/progressBarlogin"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBackground"
+            android:padding="0dp" />
+
+    </RelativeLayout>
+</LinearLayout>

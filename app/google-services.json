@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "948641175853",
+    "firebase_url": "https://tryz-nrru-board.firebaseio.com",
+    "project_id": "tryz-nrru-board",
+    "storage_bucket": "tryz-nrru-board.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948641175853:android:1c1b8b354b61241b",
+        "android_client_info": {
+          "package_name": "com.ggafiled.jungker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948641175853-arvqmfrlrmmt3vlfva1g6bh3a3tik3b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ggafiled.jungker",
+            "certificate_hash": "e8f6198ee0d2a415535fd6cce794db2aedf0af49"
+          }
+        },
+        {
+          "client_id": "948641175853-5vu98c9lptepvn2q98p258s5q2s7q8dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ggafiled.jungker",
+            "certificate_hash": "57e0dac05aa704f827ab8d041e44ea36f0f5b258"
+          }
+        },
+        {
+          "client_id": "948641175853-kpk6rcttmg8ihhrskrem8r4oheej1ub3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpcB2cZaqOFdehjrN4_Ff0LzCNtwmJKVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948641175853-kpk6rcttmg8ihhrskrem8r4oheej1ub3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948641175853:android:9762a4bbadd030c3",
+        "android_client_info": {
+          "package_name": "com.tryz.io.nrruboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948641175853-dadu0h8vsj2r11mpbqset92ldgnojo4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tryz.io.nrruboard",
+            "certificate_hash": "4ad39fc4a05974732cc68c16ae96bc8bb325de7b"
+          }
+        },
+        {
+          "client_id": "948641175853-joukr2h17bq9iieo8la0jneks3b45g48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tryz.io.nrruboard",
+            "certificate_hash": "e8f6198ee0d2a415535fd6cce794db2aedf0af49"
+          }
+        },
+        {
+          "client_id": "948641175853-kpk6rcttmg8ihhrskrem8r4oheej1ub3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpcB2cZaqOFdehjrN4_Ff0LzCNtwmJKVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948641175853-kpk6rcttmg8ihhrskrem8r4oheej1ub3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
